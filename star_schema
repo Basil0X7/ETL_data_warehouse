@@ -1,0 +1,25 @@
+digraph {
+	rankdir=LR
+	dim_date [label="📅 dim_date
+- Date_ID
+- Full_Date" fillcolor=lightblue shape=box style=filled]
+	dim_staff [label="👤 dim_staff
+- staff_id
+- first_name
+- email
+- store_id" fillcolor=lightgreen shape=box style=filled]
+	dim_rent [label="🎥 dim_rent
+- rental_id
+- rental_date
+- inventory_id
+- customer_id" fillcolor=lightyellow shape=box style=filled]
+	fact_payment [label="💰 fact_payment
+- payment_id
+- staff_id
+- rental_id
+- date_id
+- amount" fillcolor=lightcoral shape=ellipse style=filled]
+	dim_date -> fact_payment [label=date_id]
+	dim_staff -> fact_payment [label=staff_id]
+	dim_rent -> fact_payment [label=rental_id]
+}
