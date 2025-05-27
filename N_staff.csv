@@ -1,0 +1,6 @@
+staff_id,first_name,last_name,address_id,picture,email,store_id,active,username,password,last_update
+1,John,Doe,101,pic1.jpg,john.doe@example.com,1.0,1,jdoe,pass123,2023-05-01 12:00:00
+2,Anna,Smith,102,pic2.jpg,anna.smith@example.com,2.0,1,asmith,abc123,2023-05-02 13:30:00
+3,Ali,Khan,103,pic3.jpg,ali.khan@example.com,,1,akhan,xyz789,2023-05-03 11:00:00
+4,,Lee,104,pic4.jpg,lee@example.com,1.0,1,lee1,lee123,2023-05-04 10:45:00
+5,Maria,Garcia,105,pic5.jpg,john.doe@example.com,2.0,0,mgarcia,maria321,2023-05-05 09:15:00
